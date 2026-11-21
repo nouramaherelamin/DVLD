@@ -1,0 +1,33 @@
+{
+  "name": "licentra-portal",
+  "version": "2.0.0",
+  "description": "Licentra - Driving & Vehicle License Department (DVLD) Citizen Web Portal",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/audit.test.js && node tests/auth.test.js && node tests/react-routes.test.cjs",
+    "start": "vite preview"
+  },
+  "keywords": [
+    "licentra",
+    "dvld",
+    "driving-license",
+    "government-portal",
+    "egypt",
+    "react",
+    "vite",
+    "bootstrap5",
+    "dark-mode"
+  ],
+  "author": "Licentra Digital Services Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "@vitejs/plugin-react": "^6.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.6",
+    "vite": "^8.3.8"
+  }
+}

@@ -1,0 +1,134 @@
+/* ==========================================================================
+   LICENTRA DESIGN SYSTEM - CSS VARIABLES & DESIGN TOKENS
+   ========================================================================== */
+
+:root {
+  /* Brand Primary Colors */
+  --licentra-red: #E72F3D;
+  --licentra-red-hover: #D01C2A;
+  --licentra-red-dark: #A5101C;
+  --licentra-red-light: #FFF1F2;
+  --licentra-red-subtle: rgba(231, 47, 61, 0.08);
+  --licentra-red-glow: rgba(231, 47, 61, 0.25);
+  --licentra-red-rgb: 231, 47, 61;
+
+  /* Brand Secondary & Neutral Colors */
+  --licentra-navy: #0A192F;
+  --licentra-navy-dark: #060D17;
+  --licentra-navy-surface: #112240;
+  --licentra-navy-border: #233554;
+  --licentra-navy-rgb: 10, 25, 47;
+
+  /* Text & Neutral Palette */
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+  --text-white: #FFFFFF;
+
+  /* Backgrounds & Surfaces */
+  --bg-body: #FFFFFF;
+  --bg-surface: #F8FAFC;
+  --bg-surface-alt: #F1F5F9;
+  --bg-surface-card: #FFFFFF;
+  --bg-light-red: #FFF5F5;
+
+  /* Borders & Dividers */
+  --border-light: #E2E8F0;
+  --border-subtle: #F1F5F9;
+  --border-medium: #CBD5E1;
+  --border-focus: #E72F3D;
+
+  /* Status Colors */
+  --status-success: #10B981;
+  --status-warning: #F59E0B;
+  --status-info: #0EA5E9;
+  --status-purple: #8B5CF6;
+
+  /* Typography */
+  --font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.07);
+  --shadow-lg: 0 16px 36px rgba(15, 23, 42, 0.1);
+  --shadow-xl: 0 24px 48px rgba(15, 23, 42, 0.14);
+  --shadow-card-hover: 0 20px 40px rgba(231, 47, 61, 0.12), 0 4px 12px rgba(15, 23, 42, 0.04);
+  --shadow-red-btn: 0 8px 20px rgba(231, 47, 61, 0.35);
+
+  /* Border Radiuses */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --transition-fast: all 0.18s ease-in-out;
+  --transition-normal: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-index layers */
+  --z-topbar: 1030;
+  --z-navbar: 1020;
+  --z-dropdown: 1050;
+  --z-modal: 1060;
+  --z-toast: 1080;
+  --z-back-to-top: 1040;
+}
+
+/* ==========================================================================
+   DARK MODE PALETTE OVERRIDES
+   ========================================================================== */
+[data-theme="dark"] {
+  /* Brand Secondary & Dark Surface Colors */
+  --licentra-navy: #0F223D;
+  --licentra-navy-dark: #060E18;
+  --licentra-navy-surface: #132A4C;
+  --licentra-navy-border: #1E3A63;
+  --licentra-navy-rgb: 15, 34, 61;
+
+  /* Text & Neutral Palette */
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-light: #64748B;
+  --text-white: #FFFFFF;
+
+  /* Backgrounds & Surfaces */
+  --bg-body: #070F1B;
+  --bg-surface: #0B1729;
+  --bg-surface-alt: #101F35;
+  --bg-surface-card: #0F223D;
+  --bg-light-red: rgba(231, 47, 61, 0.15);
+
+  /* Borders & Dividers */
+  --border-light: #1E2E48;
+  --border-subtle: #15243C;
+  --border-medium: #2A3F60;
+  --border-focus: #EF293D;
+
+  /* Status Colors */
+  --status-success: #34D399;
+  --status-warning: #FBBF24;
+  --status-info: #38BDF8;
+  --status-purple: #A78BFA;
+
+  /* Shadows for Dark Mode */
+  --shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.55);
+  --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.65);
+  --shadow-card-hover: 0 20px 40px rgba(231, 47, 61, 0.22), 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
